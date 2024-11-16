@@ -1,10 +1,10 @@
 import * as SQLite from 'expo-sqlite';
 import { Platform } from 'react-native';
 
-// For Android and iOS
+
 const db = SQLite.openDatabase('auth.db');
 
-// Initialize database
+
 export const initDatabase = () => {
   return new Promise((resolve, reject) => {
     try {
@@ -75,4 +75,4 @@ export const loginUser = (username, password) => {
       reject(error);
     }
   });
-};
+}; 

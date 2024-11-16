@@ -10,8 +10,8 @@ export default function App() {
     const [password, setPassword] = useState('')
     const [isLoggedIn, setIsLoggedIn] = useState(false)
 
-    // what is useEffect?
-    // this is a hook that runs when the component is mounted
+    
+    
     useEffect(() => {
         initDatabase()
         checkLoginStatus()

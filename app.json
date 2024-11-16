@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "authsqlite",
-    "slug": "authsqlite",
+    "name": "authsystem",
+    "slug": "authsystem",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
